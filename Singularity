@@ -26,3 +26,4 @@ Author: Hon Wai, Leong
 %appenv mpi
     SCIF_APPBIN_mpi=/mnt/abc/u/staff/hwleong/singularity/openmpi-2.1.0/bin
     SCIF_APPLIB_mpi=/mnt/abc/u/staff/hwleong/singularity/openmpi-2.1.0/lib:/mnt/abc/u/staff/hwleong/craylibs
+    export SCIF_APPBIN_mpi SCIF_APPLIB_mpi
