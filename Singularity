@@ -22,6 +22,7 @@ Author: Hon Wai, Leong
     echo "export LD_LIBRARY_PATH=/mnt/abc/u/staff/hwleong/craylibs:$LD_LIBRARY_PATH" >>$SINGULARITY_ENVIRONMENT
     echo "export PATH=/mnt/abc/u/staff/hwleong/test/singularity/openmpi-2.1.0/bin:$PATH" >>$SINGULARITY_ENVIRONMENT
     echo "export OPAL_PREFIX=/mnt/abc/u/staff/hwleong/test/singularity/openmpi-2.1.0" >>$SINGULARITY_ENVIRONMENT
+    touch /etc/sysconfig/xt
     
 %appenv mpi
     SCIF_APPBIN_mpi=/mnt/abc/u/staff/hwleong/singularity/openmpi-2.1.0/bin
