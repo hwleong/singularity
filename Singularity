@@ -20,7 +20,7 @@ Author: Hon Wai, Leong
     yum -y install wget tcl
     echo "/mnt/abc/u/staff/hwleong/craylibs" >> /etc/ld.so.conf
     echo "export LD_LIBRARY_PATH=/mnt/abc/u/staff/hwleong/craylibs:$LD_LIBRARY_PATH" >>$SINGULARITY_ENVIRONMENT
-    echo "export PATH=/mnt/abc/u/staff/hwleong/test/singularity/openmpi-2.1.0:$PATH" >>$SINGULARITY_ENVIRONMENT
+    echo "export PATH=/mnt/abc/u/staff/hwleong/test/singularity/openmpi-2.1.0/bin:$PATH" >>$SINGULARITY_ENVIRONMENT
     echo "export OPAL_PREFIX=/mnt/abc/u/staff/hwleong/singularity/openmpi-2.1.0" >>$SINGULARITY_ENVIRONMENT
     
 %appenv mpi
