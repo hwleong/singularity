@@ -1,6 +1,12 @@
 Bootstrap: docker
 From: centos:6.9
 
+%environment
+    LD_LIBRARY_PATH=/mnt/abc/u/staff/hwleong/craylibs:$LD_LIBRARY_PATH
+    export LD_LIBRARY_PATH
+    PATH=/mnt/abc/u/staff/hwleong/test/singularity/openmpi-2.1.0/bin:$PATH
+    export PATH
+    
 %help
 My test image for centos 6.9. Author: hwleong
 
