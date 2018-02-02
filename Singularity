@@ -18,5 +18,5 @@ Author: Hon Wai, Leong
     yum -y groupinstall "Development Tools"
     echo "Installing other utilities"
     yum -y install wget tcl
-    cat /mnt/abc/u/staff/hwleong/craylibs >> /etc/ld.so.conf
+    echo /mnt/abc/u/staff/hwleong/craylibs >> /etc/ld.so.conf
 
